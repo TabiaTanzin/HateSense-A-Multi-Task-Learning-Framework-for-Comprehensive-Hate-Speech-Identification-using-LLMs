@@ -1,15 +1,7 @@
 # Computational Story Lab at BLP-2025 Task 1 — HateSense  
 ### A Multi-Task Learning Framework for Comprehensive Hate Speech Identification using LLMs
 
-Tabia Tanzin Prama¹²³⁵, Christopher M. Danforth¹²³⁴, Peter Sheridan Dodds¹²³⁵⁶  
-¹ Computational Story Lab  
-² Vermont Complex Systems Institute  
-³ Vermont Advanced Computing Center  
-⁴ Department of Mathematics and Statistics  
-⁵ Department of Computer Science, University of Vermont, Burlington, VT 05405, USA  
-⁶ Santa Fe Institute, 1399 Hyde Park Rd, Santa Fe, NM 87501, USA  
 
----
 
 ## Overview
 
@@ -23,13 +15,17 @@ The shared task requires not only detecting hate speech in Bangla, but also **cl
 
 HateSense is a **multi-task learning framework** that integrates binary and multi-label classifiers, combining **encoder-based** and **decoder-based** large language models (LLMs).
 
+<p align="center">
+  <b><font color="red">This paper has been accepted at BNLP @ AACL.</font></b>
+  <img src="https://img.shields.io/badge/Accepted-BNLP%20@%20AACL-red" alt="Accepted at BNLP @ AACL">
+</p>
 ---
 
 ## Proposed HateSense Framework
 
 The high-level architecture of our system is illustrated in Figure 1.
 
-![Overview of the HateSense prompting and multi-task framework](HateSense_framework.png)
+![Overview of the HateSense prompting and multi-task framework](task1_paper.drawio.png)
 
 > **Figure 1.** Overview of the HateSense framework for Bangla hate speech detection, integrating encoder-based classifiers with LLM prompting and multi-task prediction over type, target, and severity.
 
@@ -80,3 +76,20 @@ These results highlight that:
 
 - Transformer-based architectures are highly effective for **Bangla hate speech detection**, even under **low-resource** and **class-imbalanced** conditions.
 - CoT + few-shot prompting can provide useful complementary signal but supervised encoder-based models still dominate on the shared task metrics.
+
+## Contact
+
+**Authors**  
+Tabia Tanzin Prama¹³⁵, Christopher M. Danforth¹²³⁴, Peter Sheridan Dodds¹²³⁵⁶  
+
+**Affiliations**  
+¹ Computational Story Lab  
+² Vermont Complex Systems Institute  
+³ Vermont Advanced Computing Center  
+⁴ Department of Mathematics and Statistics  
+⁵ Department of Computer Science  
+University of Vermont, Burlington, VT 05405, USA  
+⁶ Santa Fe Institute, 1399 Hyde Park Rd, Santa Fe, NM 87501, USA  
+
+**Corresponding author:** Tabia Tanzin Prama — 📧 tprama@uvm.edu
+
